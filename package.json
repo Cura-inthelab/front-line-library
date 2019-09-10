@@ -1,0 +1,13 @@
+{
+  "name": "front-line",
+  "version": "0.0.1",
+  "description": "Front-line for service",
+  "main": "index.js",
+  "repository": "https://github.com/Cura-inthelab/front-line.git",
+  "author": "cura.inthelab@gmail.com",
+  "license": "non-commercial",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
