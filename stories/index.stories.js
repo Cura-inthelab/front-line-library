@@ -4,11 +4,11 @@ import {storiesOf} from '@storybook/vue';
 // import {action} from '@storybook/addon-actions';
 // import {linkTo} from '@storybook/addon-links';
 
-import Article from '../components/FLArticle'
+import FrontLineArticle from '../packages/FLArticle'
 
-storiesOf('CMS', module).add('article', () => ({
-    components: {Article},
-    template: '<article title="hi"/>',
+storiesOf('Pages', module).add('article', () => ({
+    components: {FrontLineArticle},
+    template: '<FrontLineArticle title="hi"/>',
     // methods: { action: linkTo('Button') },
 }));
 
